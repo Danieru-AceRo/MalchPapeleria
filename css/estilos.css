@@ -60,7 +60,7 @@ h1{
 }
 
 h2 {
-    color: #ffe001;
+    color: #ed3059;;
     text-transform: uppercase;
     font-family:"Source Sans Pro", sans-serif;
     font-weight: bold;
@@ -77,9 +77,10 @@ h3{
 h6{
     font-size: 50px;
     margin: 10px 0;
+    text-align: justify;
 }
 a{
-    color: #ffe001;
+    color: #ed3059;;
 }
 .header{
     background-color: #a6e66e;
@@ -159,7 +160,7 @@ figure {
     text-align: justify;
 }
 .bienvenida span {
-    color: #ffe001;
+    color: #ed3059;
     
 }
 .tallas{
@@ -266,12 +267,12 @@ font-size: 40px;
 
 .event-url{
     width: 150px;
-    color: #d3d1d1;
+    color: #4b4b4b;
     border: 1px solid ;
     padding: 5px 20px;
     text-decoration: none;
     border-radius: 5px;
-    background-color: #2D00FF;
+    background-color: #43b9b9;
     position: absolute;
     right: calc(50% - 95px) ;
     bottom: 1%;
@@ -284,9 +285,10 @@ font-size: 40px;
     justify-content: space-between;
     flex-wrap: wrap;
     padding-bottom: 20px;
+    color: #ed3059;;
 }
 .form-email a{
-    color: white;
+    color: #43b9b9;
 }
 .social {
     height: 100%;
@@ -452,6 +454,9 @@ h1 {
         font-size: 1.2em;
         margin: .5em 0;
     }
+    h6 {
+        font-size: 48px;
+    }
     .burger-button{
         display: block;
     }
@@ -574,7 +579,7 @@ h1 {
         justify-content: center;
     }     
     h6{
-        font-size: 32px;
+        font-size: 28px;
     }
     .bienvenida p{
         font-size: 18px
@@ -582,9 +587,15 @@ h1 {
 }
 
 @media screen and (max-width: 320px) {
+    h6 {
+        font-size: 24px;
+    }
     h1{
         font-size: 1.2;
-        } 
+    }
+    .bienvenida p {
+        font-size: 16px;
+    }    
     .event-url{
         font-size: 10px
     }
