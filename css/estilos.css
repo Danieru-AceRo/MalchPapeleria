@@ -33,8 +33,9 @@
 body{
     font-family: "Source Sans Pro", sans-serif;
     margin: 0%;
-    background-color: #14151a;
-    color: white;
+    background-color: #a6e66e;
+    color: #4b4b4b;
+
 }
 
 h1,
@@ -59,7 +60,7 @@ h1{
 }
 
 h2 {
-    color: #e14021;
+    color: #ffe001;
     text-transform: uppercase;
     font-family:"Source Sans Pro", sans-serif;
     font-weight: bold;
@@ -75,14 +76,13 @@ h3{
 
 h6{
     font-size: 50px;
-    color: white;
     margin: 10px 0;
 }
 a{
-    color: #e14021 ;
+    color: #ffe001;
 }
 .header{
-    background-color: #14151a;
+    background-color: #a6e66e;
     color: white;
     display: flex;
     height: auto;
@@ -90,7 +90,7 @@ a{
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 0;
-    border-bottom: #e5e5e5 solid 1px;
+    border-bottom: #4b4b4b solid 1px;
 }
 
 ol,
@@ -159,7 +159,8 @@ figure {
     text-align: justify;
 }
 .bienvenida span {
-    color: #e14021;
+    color: #ffe001;
+    
 }
 .tallas{
     display: flex;
@@ -227,7 +228,7 @@ figure {
  .event-list-title{
 padding-top: 25px;
 margin-bottom: -10px;
-border-bottom: solid #f3f3f3 2px;
+border-bottom: solid #4b4b4b 2px;
 font-size: 40px;
 }
 .event {
@@ -236,26 +237,27 @@ font-size: 40px;
   flex-shrink: 0;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0px 5px 15px 0px black;
+  position: relative;
+  background-color:#ffe001;
 }
 .event-imageConteiner{
-    position: relative;
     display: block;
+    width: 100%;
 }
 .event img {
     object-fit: contain;
+    width: 100%;
 }
 .event-detail{
     margin: 20px 10px;
     margin-top: -40px;
-    position: relative;
-    padding: 20px;
+    padding: 20px 0;
     text-align: center;
 }
 .event-descrption{
     text-align: center;
-    font-size: 21px;
-    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 .precio-producto{
     font-size: 22px;
@@ -263,16 +265,19 @@ font-size: 40px;
 }
 
 .event-url{
-    color: white;
+    width: 150px;
+    color: #d3d1d1;
     border: 1px solid ;
     padding: 5px 20px;
     text-decoration: none;
     border-radius: 5px;
-    background-color: #e14021;
+    background-color: #2D00FF;
+    position: absolute;
+    right: calc(50% - 95px) ;
+    bottom: 1%;
 }
 .contact{
-    background-color: #14151a;
-    color: #c58049;
+    background-color: #ffe001;
     height: auto;
     display: flex;
     align-items: center;
@@ -398,8 +403,8 @@ font-size: 40px;
 }
 @media screen and (max-width: 1023px) {
 .event{
-    width: 48%;
-    margin: 3% 1% ;
+    width: 40%;
+    margin: 3% 5%;
 }
 .event-list-title{
     margin-left: 0;
@@ -411,6 +416,9 @@ font-size: 40px;
     font-size: 13px;
 }
 
+.event-descrption {
+    margin-top: auto;
+}
 .container {
     padding: 0 1em;
 }
@@ -471,12 +479,20 @@ h1 {
         height: 130px;
         }
     .event{
-        width: 48%;
+        width: 44%;
         flex-shrink: initial;
+        margin: 3% 3%;
     }
   
     .event-detail{
         margin-top: -30px
+    }
+    .event-descrption {
+        text-align: center;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-top: 5%;
+        margin-bottom: 10%;
     }
 
     .nav-bar ol {
@@ -525,17 +541,20 @@ h1 {
     }
    
     .event-url{
-        font-size: 12px
+        font-size: 12px;
+        width: 105px;
+        padding: 5px 10px;
+        right: calc(50% - 65px);
     }
     .event img{
         height: auto;
-        width: 75%;
     }
     .event-detail{
         margin: 0%;
     }
     .event-descrption {
-        font-size: 19px;
+        font-size: 14px;
+        margin-bottom: 20%;
     }
     .event-title{
         font-size: 24px;
@@ -567,7 +586,7 @@ h1 {
         font-size: 1.2;
         } 
     .event-url{
-        font-size: 7px
+        font-size: 10px
     }
     .event-detail{
         padding: .5em;
