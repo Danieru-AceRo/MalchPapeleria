@@ -252,6 +252,7 @@ font-size: 40px;
 .event img {
     object-fit: contain;
     width: 100%;
+    animation: fadeIn 12s ease-in;
 }
 .event-detail{
     margin: 20px 10px;
