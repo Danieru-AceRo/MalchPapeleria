@@ -154,7 +154,9 @@ figure {
     color: darkgray;
     margin-top: 30px;
 }
-
+.bienvenida{
+    animation: fadeIn ease 7s;
+}
 .bienvenida p{
     font-size: 24px;
     text-align: justify;
@@ -240,6 +242,7 @@ font-size: 40px;
   overflow: hidden;
   position: relative;
   background-color:#ffe001;
+  animation: fadeIn 6s ease;
 }
 .event-imageConteiner{
     display: block;
@@ -403,6 +406,12 @@ font-size: 40px;
     top: 5px;
     color: white;
 }
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
 @media screen and (max-width: 1023px) {
 .event{
     width: 40%;
