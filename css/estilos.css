@@ -51,6 +51,12 @@ h6{
     margin-top: auto;
     animation: fadeIn 3s ease;
 }
+
+.logo img{
+    max-width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+}
 h1{
     font-size: 40px;
     line-height: 1.5;
@@ -156,7 +162,7 @@ figure {
     margin-top: 30px;
 }
 .bienvenida{
-    animation: fadeIn ease 6s;
+    animation: fadeIn ease 4s;
 }
 .bienvenida p{
     font-size: 24px;
@@ -252,7 +258,7 @@ font-size: 40px;
 .event img {
     object-fit: contain;
     width: 100%;
-    animation: fadeIn 12s ease-in;
+    animation: fadeIn 8s ease-in;
 }
 .event-detail{
     margin: 20px 10px;
@@ -491,9 +497,9 @@ h1 {
         align-items: baseline;
         padding-top: 29px;
     }
-    .logo img{
+    /* .logo img{
         height: 130px;
-        }
+        } */
     .event{
         width: 44%;
         flex-shrink: initial;
@@ -613,9 +619,9 @@ h1 {
     .event-detail{
         padding: .5em;
     }
-    .logo img {
+    /* .logo img {
         height: 60px;
-    }
+    } */
 
     .event-list-title{
         font-size: 28px;
