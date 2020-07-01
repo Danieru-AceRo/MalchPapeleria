@@ -594,6 +594,7 @@ h1 {
     }
     .citas-container {
         justify-content: center;
+        display: block;
     }     
     h6{
         font-size: 28px;
