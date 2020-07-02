@@ -145,7 +145,6 @@ figure {
     display: flex;
     align-items: center;
     height: inherit;
-    padding: 0 10px;
 }
 .nav-bar ol {
     display: flex;
